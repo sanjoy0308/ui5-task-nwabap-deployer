@@ -1,0 +1,32 @@
+{
+		"name": "test",
+		"version": "0.0.1",
+		"description": "",
+		"scripts": {
+				"build": "ui5 build --clean-dest --include-task=generateManifestBundle generateCachebusterInfo"
+		},
+		"dependencies": {
+				"@openui5/sap.f": "*",
+				"@openui5/sap.m": "*",
+				"@openui5/sap.tnt": "*",
+				"@openui5/sap.ui.core": "*",
+				"@openui5/sap.ui.layout": "*",
+				"@openui5/sap.ui.table": "*",
+				"@openui5/sap.ui.testrecorder": "*",
+				"@openui5/sap.ui.unified": "*",
+				"@openui5/sap.uxap": "*",
+				"@openui5/themelib_sap_fiori_3": "*",
+				"@sapui5/sap.ui.comp": "*",
+				"@ui5/cli": "*",
+				"@ui5/server": "*",
+				"@ui5/uiveri5": "*"
+		},
+		"devDependencies": {
+				"ui5-task-nwabap-deployer": "*"
+		},
+		"ui5": {
+				"dependencies": [
+						"ui5-task-nwabap-deployer"
+				]
+		}
+}
